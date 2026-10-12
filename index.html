@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f2e9">
+  <meta name="description" content="Сладкая Жизнь — торты на заказ в Люберцах. Посмотрите идеи оформления и оставьте заявку.">
+  <title>Сладкая Жизнь — торты в Люберцах на заказ</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="#top" aria-label="Сладкая Жизнь — наверх"><span class="brand-mark">СЖ</span><span>Сладкая<br>Жизнь</span></a>
+      <nav class="desktop-nav" aria-label="Основная навигация"><a href="#catalog">Торты</a><a href="#why">Почему мы</a><a href="#process">Как заказать</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a></nav>
+      <a class="header-cta" href="#order">Заказать торт</a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Мобильная навигация" hidden><a href="#catalog">Торты</a><a href="#why">Почему мы</a><a href="#process">Как заказать</a><a href="#reviews">Отзывы</a><a href="#order">Оставить заявку</a><a href="#contacts">Контакты</a></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Торты в Люберцах на заказ</p>
+        <h1 id="hero-title">Торт для тех, <em>кого любишь</em></h1>
+        <p class="hero-lead">Выберите понравившийся торт или расскажите о своём. Начинку, дату и стоимость обсудим вместе.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#order">Оставить заявку <span aria-hidden="true">↗</span></a><a class="text-link" href="#catalog">Посмотреть торты <span aria-hidden="true">↗</span></a></div>
+        <p class="hero-assurance">Заявка без оплаты. Детали согласуем перед заказом.</p>
+      </div>
+      <div class="hero-art"><div class="hero-image-wrap"><img src="image/1.webp" alt="Белый торт с малиной и маленькими красными сердцами" fetchpriority="high"></div><div class="hero-detail"><img src="image/3.webp" alt="Шоколадный торт с глазурью и шоколадным декором"><span>От нежного<br>до шоколадного</span></div></div>
+    </section>
+
+    <section id="catalog" class="section catalog-section container" aria-labelledby="catalog-title">
+      <div class="section-top"><div><p class="eyebrow">Выберите свой</p><h2 id="catalog-title">Торты для <em>вашего дня</em></h2></div><p class="section-intro">От ягод и шоколада до сказочного декора. Выберите то, что откликается, — детали будущего торта обсудим вместе.</p></div>
+      <p class="demo-note">Цены указаны для примера; итоговую стоимость согласуем до заказа. Фотографии показывают варианты оформления.</p>
+      <div class="catalog-grid">
+        <article class="product-card"><div class="product-image"><img src="image/1.webp" alt="Белый торт с малиной и маленькими красными сердцами" loading="lazy"><span class="card-number">01 / 06</span></div><div class="product-info"><div><p class="product-kind">Ягодный</p><h3>Малиновое сердце</h3></div><p class="price">от 3 200 ₽</p></div><button class="product-order" type="button" data-cake="Малиновое сердце">Выбрать торт <span aria-hidden="true">↗</span></button></article>
+        <article class="product-card"><div class="product-image"><img src="image/2.webp" alt="Розовый торт с короной и чёрными лентами" loading="lazy"><span class="card-number">02 / 06</span></div><div class="product-info"><div><p class="product-kind">Праздничный</p><h3>Розовая корона</h3></div><p class="price">от 4 200 ₽</p></div><button class="product-order" type="button" data-cake="Розовая корона">Выбрать торт <span aria-hidden="true">↗</span></button></article>
+        <article class="product-card"><div class="product-image"><img src="image/3.webp" alt="Шоколадный торт с глазурью и шоколадным декором" loading="lazy"><span class="card-number">03 / 06</span></div><div class="product-info"><div><p class="product-kind">Шоколадный</p><h3>Шоколадный вечер</h3></div><p class="price">от 3 600 ₽</p></div><button class="product-order" type="button" data-cake="Шоколадный вечер">Выбрать торт <span aria-hidden="true">↗</span></button></article>
+        <article class="product-card"><div class="product-image"><img src="image/4.webp" alt="Белый торт с вишнями, кремовым декором и лентами" loading="lazy"><span class="card-number">04 / 06</span></div><div class="product-info"><div><p class="product-kind">Нежный</p><h3>Вишнёвый вальс</h3></div><p class="price">от 4 500 ₽</p></div><button class="product-order" type="button" data-cake="Вишнёвый вальс">Выбрать торт <span aria-hidden="true">↗</span></button></article>
+        <article class="product-card"><div class="product-image"><img src="image/5.webp" alt="Многоярусный сказочный торт в виде замка с цветами" loading="lazy"><span class="card-number">05 / 06</span></div><div class="product-info"><div><p class="product-kind">Детский</p><h3>Сказочный замок</h3></div><p class="price">от 6 900 ₽</p></div><button class="product-order" type="button" data-cake="Сказочный замок">Выбрать торт <span aria-hidden="true">↗</span></button></article>
+        <article class="product-card"><div class="product-image"><img src="image/6.jpg" alt="Белый детский торт с ушками и цветным кремовым декором" loading="lazy"><span class="card-number">06 / 06</span></div><div class="product-info"><div><p class="product-kind">По вашему замыслу</p><h3>Торт вашей мечты</h3></div><p class="price">Цена по запросу</p></div><button class="product-order" type="button" data-cake="Торт по моему замыслу">Обсудить идею <span aria-hidden="true">↗</span></button></article>
+      </div>
+    </section>
+
+    <section id="why" class="section why-section" aria-labelledby="why-title"><div class="container why-layout"><div class="why-heading"><p class="eyebrow">Почему выбирают нас</p><h2 id="why-title">У вашего праздника <em>свой характер</em></h2><p>Поэтому сначала узнаем, каким вы представляете торт, а затем согласуем детали.</p><a class="text-link" href="#order">Расскажите о своей идее <span aria-hidden="true">↗</span></a></div><div class="advantages"><article><span>01</span><div><h3>Оформление по вашему замыслу</h3><p>Можно выбрать пример из каталога или описать собственную идею.</p></div></article><article><span>02</span><div><h3>Стоимость до подтверждения</h3><p>Размер, начинку и итоговую цену обсудим до оформления заказа.</p></div></article><article><span>03</span><div><h3>Рядом, в Люберцах</h3><p>Уточним удобный способ получения торта при обсуждении заявки.</p></div></article></div></div></section>
+
+    <section id="process" class="section process-section container" aria-labelledby="process-title"><div class="section-top"><div><p class="eyebrow">Просто и понятно</p><h2 id="process-title">Как сделать <em>заказ</em></h2></div></div><div class="steps"><article><span>01</span><h3>Выберите идею</h3><p>Отметьте торт из каталога или опишите свой вариант.</p></article><article><span>02</span><h3>Оставьте заявку</h3><p>Укажите имя, телефон, желаемую дату и пожелания.</p></article><article><span>03</span><h3>Согласуем детали</h3><p>Уточним оформление, размер, стоимость и получение.</p></article></div></section>
+
+    <section id="reviews" class="section reviews-section" aria-labelledby="reviews-title"><div class="container reviews-layout"><div class="review-photo"><img src="image/4.webp" alt="Праздничный торт с вишнями и кремовым декором" loading="lazy"></div><div><p class="eyebrow">Отзывы покупателей</p><h2 id="reviews-title">Впечатления, которыми <em>делятся</em></h2><p>Здесь будут опубликованы настоящие отзывы покупателей. Пока вы можете посмотреть примеры тортов и выбрать оформление для своего праздника.</p><a class="text-link" href="#catalog">Посмотреть торты <span aria-hidden="true">↗</span></a></div></div></section>
+
+    <section class="section order-section container" aria-labelledby="order-title"><div class="order-copy"><p class="eyebrow">Ваш особенный повод</p><h2 id="order-title">Давайте создадим <em>ваш торт</em></h2><p>Расскажите, что вы задумали. Детали, размер и стоимость обсудим перед подтверждением заказа.</p><div class="order-photo"><img src="image/1.webp" alt="Нежный белый торт с малиной" loading="lazy"></div></div><div class="form-panel" id="order"><p class="form-kicker">Форма заявки</p><form id="order-form"><label for="customer-name">Как к вам обращаться <span>*</span></label><input id="customer-name" name="name" type="text" autocomplete="name" maxlength="80" required placeholder="Ваше имя"><label for="customer-phone">Ваш телефон <span>*</span></label><input id="customer-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="30" required placeholder="+7 (___) ___-__-__"><label for="cake-select">Какой торт понравился?</label><select id="cake-select" name="cake"><option value="">Выберите торт или обсудим идею</option><option>Малиновое сердце</option><option>Розовая корона</option><option>Шоколадный вечер</option><option>Вишнёвый вальс</option><option>Сказочный замок</option><option>Торт по моему замыслу</option></select><label for="order-date">Желаемая дата</label><input id="order-date" name="date" type="date"><label for="order-message">Ваши пожелания</label><textarea id="order-message" name="message" rows="4" maxlength="1000" placeholder="Повод, оформление, количество гостей..."></textarea><button class="button button-dark submit-button" type="submit">Отправить заявку <span aria-hidden="true">↗</span></button><p id="form-status" class="form-status" role="status" aria-live="polite"></p><p class="form-footnote">Пока сайт работает локально, заявки сохраняются на этом компьютере. Отправка вам станет доступна после подключения сайта к вашему каналу связи.</p></form></div></section>
+  </main>
+
+  <footer id="contacts" class="footer"><div class="container"><div class="footer-main"><div><p class="eyebrow">Остаёмся на связи</p><h2>До встречи за <em>сладким!</em></h2></div><div class="footer-contact"><span>Кондитерская</span><strong>Сладкая Жизнь</strong><span>Город</span><strong>Люберцы</strong><span>Телефон</span><strong>Добавим ваш номер</strong></div></div><div class="footer-bottom"><a class="brand footer-brand" href="#top"><span class="brand-mark">СЖ</span><span>Сладкая<br>Жизнь</span></a><p>Сайт находится в подготовке. Цены и условия уточняются.</p><a href="#top">Наверх ↑</a></div></div></footer>
+</body>
+</html>
